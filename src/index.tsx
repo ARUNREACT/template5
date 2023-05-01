@@ -13,7 +13,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename={window.location.pathname || ""}>
+    <BrowserRouter>
       <MainNavigator />
     </BrowserRouter>
   </React.StrictMode>
