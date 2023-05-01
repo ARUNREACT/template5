@@ -7,6 +7,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import "./index.css";
 import "../node_modules/font-awesome/css/font-awesome.min.css";
 import "./config/Colors.css";
+import "./view/dashboard/home/Dashboard.styles.css";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement

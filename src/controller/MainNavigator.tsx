@@ -29,9 +29,9 @@ function MainNavigator() {
         <Route path="/loan" element={<Loan />} />
         <Route path="/devices" element={<Devices />} />
 
-        <Route path="header" element={<Header />} />
-        <Route path="footer" element={<Footer />} />
-        <Route path="login" element={<Login />} />
+        <Route path="/header" element={<Header />} />
+        <Route path="/footer" element={<Footer />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
     </div>
   );
