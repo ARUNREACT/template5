@@ -1,0 +1,79 @@
+.main-footer {
+  background-color: var(--primary-color);
+}
+.footer {
+  position: relative;
+  z-index: 1;
+}
+
+.logo img:nth-child(1) {
+  width: 70px;
+  margin-top: 10px;
+  /* background-color: aliceblue; */
+}
+.logo img:nth-child(3) {
+  width: 130px;
+  margin-top: 25px;
+  /* background-color: a/liceblue; */
+}
+.icon i {
+  margin-right: 10px;
+  color: #8c8c8c;
+}
+.main-footer a {
+  color: #444444;
+  font-size: 15px;
+}
+.footer h5 {
+  /* height: 20px; */
+  letter-spacing: 1px;
+  color: var(--secondary-color);
+}
+.option a {
+  text-decoration: none;
+  color: #ffffff;
+  margin-top: 8px;
+  width: 190px;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+}
+.option a:hover {
+  transform: scale(1.03);
+  color: var(--secondary-color);
+}
+.footer span {
+  height: 3px;
+  background-color: var(--text-color-white);
+  width: 60px;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+
+.social i {
+  color: #a1a1a1;
+  transition: all 0.5s;
+  margin-top: 5px;
+  font-size: 23px;
+  margin-left: 5px;
+}
+.social i:hover {
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+
+.foot-address a {
+  display: none;
+}
+.foot-address p {
+  color: #ffffff;
+  font-size: 13.5px;
+}
+.foot-address i {
+  margin-top: 5px;
+  color: rgb(147, 147, 147);
+}
+.last {
+  font-size: 10px !important;
+  letter-spacing: 1.5px;
+  color: rgb(255, 255, 255);
+}
